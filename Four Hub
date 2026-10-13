@@ -9,7 +9,7 @@ local routes = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Teste-dnv-kk/refs/heads/main/Anime%20Breaker.lua"))()
     end,
 
-    [109928390521457] = function()
+    [106198175232796] = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Teste-dnv-kk/refs/heads/main/QzA1tiia.txt"))()
     end,
 
