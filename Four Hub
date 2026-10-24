@@ -1,24 +1,28 @@
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
-
 task.wait(0.4)
+
+local function loadArise()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Games/refs/heads/main/Arise%20Crossover"))()
+end
 
 local routes = {
     [109928390521457] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Games/refs/heads/main/Anime%20Brekear"))()
     end,
 
-    [87039211657390, 75812907038499, 131604490933694, 128336380114944] = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Games/refs/heads/main/Arise%20Crossover"))()
-    end,
+    [87039211657390] = loadArise,
+    [75812907038499] = loadArise,
+    [131604490933694] = loadArise,
+    [128336380114944] = loadArise,
 
     [106198175232796] = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Games/refs/heads/main/MM2"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Games/refs/heads/main/MM2"))()
     end,
 
     [142823291] = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Games/refs/heads/main/Steal%20Egg%20off"))() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Games/refs/heads/main/Steal%20Egg%20off"))()
     end,
 }
 
@@ -34,7 +38,6 @@ else
     pcall(function()
         game.Players.LocalPlayer:Kick("Jogo não suportado")
     end)
-
     task.wait(4)
     game:Shutdown()
 end
