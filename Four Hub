@@ -9,6 +9,10 @@ local routes = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Games/refs/heads/main/Anime%20Brekear"))()
     end,
 
+    [87039211657390, 75812907038499, 131604490933694, 128336380114944] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Games/refs/heads/main/Arise%20Crossover"))()
+    end,
+
     [106198175232796] = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Games/refs/heads/main/MM2"))()
     end,
