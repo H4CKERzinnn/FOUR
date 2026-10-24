@@ -6,15 +6,15 @@ task.wait(0.4)
 
 local routes = {
     [109928390521457] = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Teste-dnv-kk/refs/heads/main/Anime%20Breaker.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Games/refs/heads/main/Anime%20Brekear"))()
     end,
 
     [106198175232796] = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Teste-dnv-kk/refs/heads/main/QzA1tiia.txt"))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Games/refs/heads/main/MM2"))()
     end,
 
     [142823291] = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Teste-dnv-kk/refs/heads/main/FOUR_HUB_MM2"))() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4CKERzinnn/Games/refs/heads/main/Steal%20Egg%20off"))() 
     end,
 }
 
